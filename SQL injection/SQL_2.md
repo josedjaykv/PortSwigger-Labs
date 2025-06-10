@@ -12,4 +12,6 @@ In this case, an attacker can log in as any user without the need for a password
 
 This query returns the user whose `username` is `administrator` and successfully logs the attacker in as that user. 
 
+### Solución
+
 En el login ponemos `'OR 1=1--` y el password cualquier cosa.
